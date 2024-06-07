@@ -39,11 +39,6 @@ O sistema apresenta um menu interativo para navegar pelas funcionalidades. Siga 
 * A interface do usuário é amigável e fácil de usar.
 * O código está documentado de forma clara e concisa.
 
-### Recursos Adicionais
-
-* Exemplo de implementação de árvore AVL em Java: [https://pt.wikipedia.org/wiki/%C3%81rvore_AVL](https://pt.wikipedia.org/wiki/%C3%81rvore_AVL)
-* Exemplo de implementação de árvore Rubro Negra em Java: [https://pt.wikipedia.org/wiki/%C3%81rvore_rubro-negra](https://pt.wikipedia.org/wiki/%C3%81rvore_rubro-negra)
-
 ### Dicas
 
 * Leia a documentação do código antes de usá-lo.
