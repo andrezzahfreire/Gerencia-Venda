@@ -1,18 +1,53 @@
-## Getting Started
+## Sistema de Gerenciamento de Vendas em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Descrição
 
-## Folder Structure
+Este projeto implementa um sistema em Java para gerenciar as vendas de uma empresa. O sistema armazena os dados das vendas em um arquivo texto e utiliza uma árvore AVL ou Rubro Negra (sua escolha) para garantir a eficiência na busca e manipulação dos dados.
 
-The workspace contains two folders by default, where:
+### Funcionalidades
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+* Inserir novas vendas:
+    * Geração automática de ID aleatório entre 1000 e 9999 (sem repetições).
+* Buscar venda por ID:
+    * Exibe os dados da venda caso seja encontrada.
+    * Exibe mensagem informativa caso não seja encontrada.
+* Listar todas as vendas cadastradas.
+* Remover uma venda cadastrada.
+* Alterar os dados de uma venda (exceto ID).
+* Ler dados do arquivo `venda.txt` na inicialização.
+* Gravar dados no arquivo `venda.txt` ao finalizar.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Requisitos
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+* Java 11 ou superior.
+* Biblioteca contendo as funcionalidades do sistema (arquivo `.jar`).
 
-## Dependency Management
+### Instalação
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Baixe o código do projeto.
+2. Compile o código usando o comando `mvn clean install`.
+3. Execute o JAR usando o comando `java -jar target/sistema-vendas-1.0-SNAPSHOT.jar`.
+
+### Uso
+
+O sistema apresenta um menu interativo para navegar pelas funcionalidades. Siga as instruções na tela para realizar as operações desejadas.
+
+### Observações
+
+* A biblioteca é genérica e pode ser reutilizada em outros projetos.
+* O sistema é robusto e suporta um grande número de vendas.
+* A interface do usuário é amigável e fácil de usar.
+* O código está documentado de forma clara e concisa.
+
+### Recursos Adicionais
+
+* Exemplo de implementação de árvore AVL em Java: [https://pt.wikipedia.org/wiki/%C3%81rvore_AVL](https://pt.wikipedia.org/wiki/%C3%81rvore_AVL)
+* Exemplo de implementação de árvore Rubro Negra em Java: [https://pt.wikipedia.org/wiki/%C3%81rvore_rubro-negra](https://pt.wikipedia.org/wiki/%C3%81rvore_rubro-negra)
+
+### Dicas
+
+* Leia a documentação do código antes de usá-lo.
+* Utilize ferramentas de controle de versão para gerenciar o código e colaborar com sua equipe.
+* Contribua com melhorias no código abrindo issues ou pull requests no repositório do GitHub.
+
+### Acreditamos que este sistema será uma ferramenta valiosa para gerenciar as vendas da sua empresa. Com um bom planejamento e execução, você poderá desenvolver um sistema robusto, eficiente e fácil de usar.
