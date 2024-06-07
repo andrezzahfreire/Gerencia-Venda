@@ -2,7 +2,7 @@
 
 ### Descrição
 
-Este projeto implementa um sistema em Java para gerenciar as vendas de uma empresa. O sistema armazena os dados das vendas em um arquivo texto e utiliza uma árvore AVL ou Rubro Negra (sua escolha) para garantir a eficiência na busca e manipulação dos dados.
+Este projeto implementa um sistema em Java para gerenciar as vendas de uma empresa. O sistema armazena os dados das vendas em um arquivo texto e utiliza uma árvore Rubro Negra para garantir a eficiência na busca e manipulação dos dados.
 
 ### Funcionalidades
 
